@@ -22,7 +22,7 @@ while True:
     user_num = input(' Guess the number')
     if user_num.isdigit():
         user_num = int(user_num)
-
+qu
         if user_num > num :
             print('the number is smaller')
         elif user_num < num:
