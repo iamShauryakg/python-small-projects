@@ -32,6 +32,6 @@ for i in range(TOTAL_QUESTION):
         print(f"answer of {question} = {answer}")
 
 end_time = time.time()
-total_time = round(start_time - end_time)
+total_time = round(end_time - start_time)
 
 print(f" total Time taken  =  {total_time} sec")
